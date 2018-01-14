@@ -4,7 +4,7 @@
 
 Overview
 ---
-This repository contains my submission for the Model Predictive Control project, which is part of the curriculum for term 2 of the Udacity Self-Driving Car Engineer Nanodegree Program. The goal of this project is to  implement Model Predictive Control to drive the car around the lake race track from the behavioral cloning [project](https://github.com/alangordon258/SelfDrivingCar-Term1-Proj3) in term1. The code for my model predictive controller can be found [here](./src). In this project we were not given the cross track error, we had to calculate it ourselves. Additionally, there's a 100 millisecond latency between actuations commands on top of the connection latency.  See the project rubric [here](https://review.udacity.com/#!/rubrics/896/view). 
+This repository contains my submission for the Model Predictive Control Project, which is part of the curriculum for term 2 of the Udacity Self-Driving Car Engineer Nanodegree Program. The goal of this project is to  implement Model Predictive Control to drive the car around the lake race track from the behavioral cloning [project](https://github.com/alangordon258/SelfDrivingCar-Term1-Proj3) in term1. The code for my model predictive controller can be found [here](./src). In this project we were not given the cross track error, we had to calculate it ourselves. Additionally, there's a 100 millisecond latency between actuations commands on top of the connection latency.  See the project rubric [here](https://review.udacity.com/#!/rubrics/896/view). 
 ![alt text](./PIDScreenShot.png)
 
 [//]: # (Image References)
