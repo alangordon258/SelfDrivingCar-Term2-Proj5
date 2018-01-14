@@ -51,16 +51,7 @@ class FG_eval {
     // the Solver function below.
       
       double hyperparameters[8];
- /*
-      hyperparameters[CostFunctionParts::CTE]=1000;
-      hyperparameters[CostFunctionParts::EPSI]=1000;
-      hyperparameters[CostFunctionParts::REF_VEL]=10;
-      hyperparameters[CostFunctionParts::STEERING_ACT]=10000;
-      hyperparameters[CostFunctionParts::THROTTLE_ACT]=1000;
-      hyperparameters[CostFunctionParts::SPEED_STEER]=1000;
-      hyperparameters[CostFunctionParts::DELTA_STEER]=10000;
-      hyperparameters[CostFunctionParts::DELTA_THROTTLE]=1000;
-  */
+ 
       hyperparameters[CostFunctionParts::CTE]=250;
       hyperparameters[CostFunctionParts::EPSI]=250;
       hyperparameters[CostFunctionParts::REF_VEL]=10;
